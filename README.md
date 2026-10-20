@@ -10,8 +10,10 @@ I enjoy figuring out how things work underneath, then building my own version.
 
 | Project | What it is | Built with |
 |---|---|---|
+| [gpu-perf-lab](https://github.com/AkineHime/gpu-perf-lab) | CUDA matrix-multiply kernels optimized step by step from naive to 94% of cuBLAS, with an animated roofline and live GPU-telemetry dashboard | CUDA C++, cuBLAS, NVML, FastAPI |
 | [AI-based-compiler-optimization](https://github.com/AkineHime/AI-based-compiler-optimization) | A compiler for MiniC, a small C dialect, with six optimization passes and an ML model that recommends which passes to enable. Measured on 57,600 timed builds | Python, C, scikit-learn, PyTorch |
 | [vtol-quadcopter](https://github.com/AkineHime/vtol-quadcopter) | Autonomous VTOL quadplane for coconut-plantation surveillance: aerodynamics, CAD airframe, flight simulation | Python, ArduPilot, JSBSim, Gazebo, FreeCAD |
+| [Live-news-Tracker-and-Querry-System](https://github.com/AkineHime/Live-news-Tracker-and-Querry-System) | Transcribes live news streams on the GPU with Whisper and answers questions about them with Gemini, citing timestamps | Python, faster-whisper, FastAPI, Gemini |
 | [Legal-document-Analyser](https://github.com/AkineHime/Legal-document-Analyser) | Offline AI analyser for Indian commercial contracts, in a single JVM process | Java, ONNX |
 | [semantic-searching-reports](https://github.com/AkineHime/semantic-searching-reports) | Semantic search service with embedding clustering and a semantic cache | Python, FastAPI |
 | [OCR-Website-and-summary-generator](https://github.com/AkineHime/OCR-Website-and-summary-generator) | Upload a PDF or scan to get extracted text and an AI summary | FastAPI, Tesseract, React |
@@ -19,8 +21,8 @@ I enjoy figuring out how things work underneath, then building my own version.
 
 ## Currently exploring
 
-GPU programming with CUDA, and how compilers and hardware turn code into speed.
+GPU programming with CUDA (async copies, Tensor Cores), and how compilers and hardware turn code into speed.
 
 ## Languages & tools
 
-Python · C · Java · TypeScript / JavaScript · SQL · React · FastAPI · PyTorch · Git
+Python · C / C++ · CUDA · Java · TypeScript / JavaScript · SQL · React · FastAPI · PyTorch · Git
